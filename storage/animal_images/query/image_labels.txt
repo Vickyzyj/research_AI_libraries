@@ -1,0 +1,10 @@
+cat
+cat
+bison
+bear
+bear
+cat
+dolphin
+goat
+oyster
+starfish
