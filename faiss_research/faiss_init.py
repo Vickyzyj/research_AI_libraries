@@ -1,6 +1,7 @@
 
 from modules.preprocessing import create_img_dict, create_img_list
-from modules.embedding import ImageEmbedding
+from modules.embedding import ImageEmbedding          # suitable for general image recognition
+# from modules.embeddingV2 import ImageEmbedding      # suitable for face recognition
 from modules.faiss_search import FaissSearch
 
 # Load images from folder

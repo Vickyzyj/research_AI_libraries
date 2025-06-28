@@ -7,7 +7,7 @@ Research and practice on various AI libraries
   to load training images and labels to lists.
 * Embedding: [embedding.py](faiss_research/modules/embedding.py) Defined ImageEmbedding class to
   to convert images to vectors using ResNet18.
-* Faiss_search: [faiss_search](faiss_research/modules/faiss_search.py) Defined FaissSearch class which
+* Faiss_search: [faiss_search.py](faiss_research/modules/faiss_search.py) Defined FaissSearch class which
   enables Flat search, LSH search, and HNSW search of FAISS library.
 
 #### Test Files:

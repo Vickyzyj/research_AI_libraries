@@ -4,6 +4,7 @@ import torchvision.transforms as transforms
 import numpy as np
 
 # Create vectors from images
+# Suitable for general image recognition
 class ImageEmbedding:
     def __init__(self):
         weights = ResNet18_Weights.DEFAULT
@@ -37,7 +38,7 @@ if __name__ == '__main__':
     from PIL import Image
     _path = Path(os.getcwd()).parent.parent
     _path = os.path.join(_path, 'storage/animal_images/query')
-    images_list = ['test_1.jpg', 'test_2.jpeg', 'test_3.jfif', 'test_4.jfif', 'test_5.jfif']
+    images_list = ['test_01.jpg', 'test_02.jpeg', 'test_03.jfif', 'test_04.jfif', 'test_05.jfif']
     images = []
     for img in images_list:
         _p = os.path.join(_path, img)
